@@ -1,0 +1,64 @@
+---
+title: Jörn Threlfall
+timezone: UTC
+collections:
+  commercial:
+    title: Commercial
+    output: true
+  narrative:
+    title: Narrative
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: false
+url: https://www.http://jornthrelfall.com
+description: Jörn Threlfall is a director based in London, where he’s represented for commercials by Outsider.
+permalink: pretty
+exclude:
+- bower.json
+- Gemfile.lock
+- package.json
+- config.codekit3
+- README*
+- LICENSE*
+- CHANGELOG*
+- node_modules
+- ".gitignore"
+- bower_components
+- assets/scss
+plugins:
+- jekyll-paginate-v2
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+- jekyll/imgix
+markdown: kramdown
+kramdown:
+  auto_ids: false
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+colophon: http://garethjohnsdesign.com
+company: Jörn Threlfall
+email: info@jornthrelfall.com
+analytics: 
+logo: "/assets/img/logo.svg"
+per_page: 12
+date_format: "%d %B %Y"
+future: true
+social:
+  twitter: https://twitter.com/jornthrelfall
+compress_html:
+  comments:
+  - "<!-- "
+  - " -->"
+  blanklines: true
+  profile: false
+pagination:
+  enabled: true
+  per_page: 100
+imgix:
+  source: jorn-threlfall.imgix.net

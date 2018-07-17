@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="grid-container">
+  
+  <div class="grid-x grid-padding-x small-up-1 medium-up-2 large-up-3">
+      {% for detail in page.details %}
+      <div class="cell margin-bottom-2" data-aos="fade-in">
+        <div class="margin-bottom-1"><h3 class="primary-font">{{detail.title}}<h3></div>
+        {{detail.text | markdownify}}
+      </div>
+      {% endfor %}
+  </div>
+  
+</div>
