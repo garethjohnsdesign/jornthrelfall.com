@@ -142,21 +142,29 @@ p a {
   left: 0;
   width: 100%;
   z-index: 100;
-  @include links (red, $dark-gray)
+  @include links ($black, $dark-gray)
+}
+
+.home .navigation--active {
+  @include links ($white, $dark-gray)
 }
 
 .home__narrative {
+  @include links ($black, $dark-gray)
   background-color: $white;
 }
 
 .home__narrative--active {
+  @include links ($white, $white)
   background-color: $black;
 }
 
 .home__commercial {
+  @include links ($white, $white)
   background-color: $black;
 }
 
 .home__commercial--active {
+  @include links ($black, $dark-gray)
   background-color: $white;
 }
