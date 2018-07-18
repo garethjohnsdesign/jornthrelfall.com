@@ -3,12 +3,24 @@ layout: default
 ---
 
 <!-- Projects -->
-<div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-2 large-up-2 xlarge-up-3 xxlarge-up-3">
-  {% assign projects = paginator.posts | where: "is-shown", "true" %}
-  {% for project in projects %}
-    <div class="cell projects__list" data-aos="fade-in">
-    {% include item.html %}
+<div class="grid-x" style="height: 100vh">
+  <div class="small-6 cell home__narrative">
+    <a href="/narrative">
+    <div class="grid-x align-middle" style="height: 100%">
+      <div class="small-12 cell text-center text-uppercase">
+        <h1>Narrative</h1>
+      </div>
     </div>
-  {% endfor %}
+    </a>
+  </div>
+  <div class="small-6 cell home__commercial">
+    <a href="/commercial">
+    <div class="grid-x align-middle" style="height: 100%">
+      <div class="small-12 cell text-center text-uppercase">
+        <h1>Commercial</h1>
+      </div>
+    </div>
+    </a>
+  </div>
 </div>
 <!-- End Projects -->

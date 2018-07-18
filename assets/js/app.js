@@ -48,3 +48,22 @@ $('#video').lightGallery({
         color : 'FF8300'     
     }
 }); 
+
+
+/*
+$('.home__narrative').hover(function() {
+     $('.home__narrative').addClass('home__narrative--active');
+     $('.home__commercial').removeClass('home__commercial--active')
+}, function() {
+     $('.home__narrative').removeClass('home__narrative--active');
+     $('.home__commercial').addClass('home__commercial--active')
+});
+
+$('.home__commercial').hover(function() {
+     $('.home__narrative').removeClass('home__narrative--active');
+     $('.home__commercial').addClass('home__commercial--active')
+}, function() {
+     $('.home__narrative').addClass('home__narrative--active');
+     $('.home__commercial').removeClass('home__commercial--active')
+});
+*/

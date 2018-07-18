@@ -5,6 +5,9 @@ collections:
   commercial:
     title: Commercial
     output: true
+  archive:
+    title: Archive
+    output: true
   narrative:
     title: Narrative
     output: true

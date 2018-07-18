@@ -114,5 +114,49 @@ p a {
 // -------------
 
 .off-canvas {
-  @include links ($white, $black)
+  @include links ($black,$dark-gray)
+}
+
+
+.excerpt {
+  position:relative;
+  &:hover .excerpt__title {
+  opacity: 1;
+  } 
+}
+
+.excerpt__title {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0rem;
+  color: $black;
+  z-index: 1;
+  opacity: 0;
+  background-color: $white;
+}
+
+.home .navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  @include links (red, $dark-gray)
+}
+
+.home__narrative {
+  background-color: $white;
+}
+
+.home__narrative--active {
+  background-color: $black;
+}
+
+.home__commercial {
+  background-color: $black;
+}
+
+.home__commercial--active {
+  background-color: $white;
 }

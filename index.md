@@ -5,7 +5,7 @@ image: "/assets/img/og-image.png"
 layout: home
 pagination:
   enabled: true
-  collection: commercial
+  collection: commercial, narrative
   sort_field: position
   tag: home
 ---
