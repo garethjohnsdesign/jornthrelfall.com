@@ -97,6 +97,7 @@ p a {
 // -------------
 
 .navigation {
+  width: 100%;
   .cell {
 	z-index: 14; 
   }
@@ -149,6 +150,14 @@ p a {
   @include links ($white, $white)
 }
 
+.navigation--active .hamburger-inner {
+  &,
+  &::before,
+  &::after {
+    background-color: $black;
+  }
+}
+
 .home__narrative {
   @include links ($black, $dark-gray)
   background-color: $white;
@@ -177,23 +186,14 @@ p a {
   }
 }
 
-.navigation--active .hamburger-inner {
-  &,
-  &::before,
-  &::after {
-    background-color: $black;
-  }
-}
-
 .hamburger {
   &.is-active {
     .hamburger-inner {
       &,
       &::before,
       &::after {
-        background-color: red;
+        background-color: $black;
       }
     }
   }
 }
-
