@@ -3,6 +3,7 @@ $(document).foundation();
 // 1. Loading
 // --------------------
 
+/*
 $(function() {
 if (sessionStorage.getItem('set') === 'set') {
   $('.loader').hide();
@@ -14,6 +15,7 @@ if (sessionStorage.getItem('set') === 'set') {
   sessionStorage.setItem('set', 'set');
 }
 });
+*/
 
 // 2. Animate on Scroll
 // --------------------
@@ -34,6 +36,7 @@ window.addEventListener('load', AOS.refresh);
 // 3. Lightgallery
 // ---------------
 
+/*
 $('#video').lightGallery({
     counter: false,
     youtubePlayerParams: {
@@ -48,8 +51,10 @@ $('#video').lightGallery({
         color : 'FF8300'     
     }
 }); 
+*/
 
 
+/*
 $('.home__narrative').hover(function() {
      $('.home__narrative').addClass('home__narrative--active');
      $('.home__commercial').addClass('home__commercial--active');
@@ -69,6 +74,7 @@ $('.home__commercial').hover(function() {
      $('.home__commercial').addClass('home__commercial--active');
      $('.navigation').addClass('navigation--active');
 });
+*/
 
 
 

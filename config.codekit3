@@ -314,6 +314,13 @@
 		"oAP": "\/_includes\/subscribe.html",
 		"oF": 0
 		},
+	"\/_layouts\/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/about.html",
+		"oF": 0
+		},
 	"\/_layouts\/compress.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -762,6 +769,24 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/about.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/about.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/archive.md": {
 		"cB": 0,

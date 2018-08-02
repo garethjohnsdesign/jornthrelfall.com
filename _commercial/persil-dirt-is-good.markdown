@@ -1,5 +1,7 @@
 ---
 title: Dirt is Good
+tags:
+- home
 position: 1
 client: Persil
 image: "/uploads/persil.jpg"

@@ -2,25 +2,23 @@
 layout: default
 ---
 
-<!-- Projects -->
-<div class="grid-x" style="height: 100vh">
-  <div class="small-6 cell home__narrative">
-    <a href="/narrative">
-    <div class="grid-x align-middle" style="height: 100%">
-      <div class="small-12 cell text-center text-uppercase">
-        <h1>Narrative</h1>
-      </div>
-    </div>
-    </a>
-  </div>
-  <div class="small-6 cell home__commercial">
-    <a href="/commercial">
-    <div class="grid-x align-middle" style="height: 100%">
-      <div class="small-12 cell text-center text-uppercase">
-        <h1>Commercial</h1>
-      </div>
-    </div>
-    </a>
-  </div>
+<!-- Company Description -->
+<div class="grid-x grid-padding-x grid-padding-y padding-top-2 padding-bottom-2" data-aos="fade-in">
+  <div class="small-12 medium-10 large-10 xxlarge-8 cell">{{page.description | markdownify}}</div>
 </div>
-<!-- End Projects -->
+<!-- End Company Description -->
+
+
+<!-- Selected Projects -->
+
+<div class="grid-x grid-padding-x" data-aos="fade-in">
+  <div class="small-12 medium-10 large-10 xxlarge-8 cell">Selected Projects</div>
+</div>
+
+<div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-1 large-up-2 xlarge-up-3 xxlarge-up-3">
+  {% assign projects = paginator.posts %}
+  {% for project in projects %}
+    {% include excerpt.html %}
+  {% endfor %}
+</div>
+<!-- End Selected Projects -->

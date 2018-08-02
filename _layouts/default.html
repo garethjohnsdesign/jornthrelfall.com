@@ -17,24 +17,18 @@ layout: compress
 </div>
 <!-- End Off Canvas Navigation --> 
 
-<div class="grid-y off-canvas-content {{page.layout | slugify}}" data-off-canvas-content style="height: 100vh">
+<div class="wrapper grid-y off-canvas-content align-justify {{page.layout | slugify}}" data-off-canvas-content>
+<!-- Navigation -->
+{% include navigation.html %}
+<!-- End Navigation -->
 
-  <div class="shrink cell">
-    <!-- Navigation -->
-      {% include navigation.html %}
-    <!-- End Navigation -->
-  </div>
-  
-  <div class="auto cell">
-    <div class="grid-x padding-bottom-1 align-center-middle text-center" style="min-height: 100%;">
-      <div class="small-12 cell">
-        <!-- Content -->
-        {{content}}
-        <!-- End Content -->
-      </div>
-    </div>
-  </div>
+<!-- Content -->
+{{content}}
+<!-- End Content -->
 
+<!-- Footer -->
+{% include footer.html %}
+<!-- End Footer-->
 </div>
 
 <!-- Scripts -->

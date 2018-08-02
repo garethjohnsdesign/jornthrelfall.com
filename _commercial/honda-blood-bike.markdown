@@ -1,5 +1,7 @@
 ---
 title: Blood Bike
+tags:
+- home
 position: 1
 client: Honda
 image: "/uploads/honda-blood-bike.jpg"

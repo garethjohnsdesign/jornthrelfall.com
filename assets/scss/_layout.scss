@@ -90,8 +90,17 @@ i, cite, em, var, address, dfn {
 }
 
 p a {
-  border-bottom: 1px solid $black;
+  border-bottom: 1px solid $white;
 }
+
+h1 a {
+  border-bottom: 3px solid $white;
+}
+
+h1 a:hover {
+  border-bottom: 3px solid $black;
+}
+
 
 // 6. Navigation
 // -------------
@@ -137,6 +146,7 @@ p a {
   background-color: $white;
 }
 
+/*
 .home .navigation {
   position: absolute;
   top: 0;
@@ -145,6 +155,7 @@ p a {
   z-index: 100;
   @include links ($black, $black)
 }
+*/
 
 .home .navigation--active {
   @include links ($white, $white)
@@ -195,5 +206,16 @@ p a {
         background-color: $black;
       }
     }
+  }
+}
+
+.wrapper {
+  min-height: 100vh;
+  padding: 1rem;
+  @include breakpoint(medium) {
+    padding: 1rem;
+  }
+  @include breakpoint(large) {
+    padding: 1.5rem;
   }
 }
