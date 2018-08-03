@@ -1,10 +1,8 @@
 ---
-title: Grand Adventure
-tags:
-- home
+title: The Effect
 position: 1
-client: Disney
-image: "/uploads/disney.jpg"
+client: Jaguar
+image: "/uploads/jaguar-the-effect.jpg"
 vimeo: 82642891
 production-company: Spy Films
 dop: Tom O'Keefe

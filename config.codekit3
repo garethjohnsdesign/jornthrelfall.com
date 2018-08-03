@@ -209,6 +209,20 @@
 		"oAP": "\/_commercial\/honda-blood-bike.markdown",
 		"oF": 0
 		},
+	"\/_commercial\/jaguar-the-effect copy.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_commercial\/jaguar-the-effect copy.markdown",
+		"oF": 0
+		},
+	"\/_commercial\/jaguar-the-effect.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_commercial\/jaguar-the-effect.markdown",
+		"oF": 0
+		},
 	"\/_commercial\/libero-love-every-moment.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -638,6 +652,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_uploads\/jaguar-the-effect.jpg": {
+		"ft": 16384,
+		"iS": 44877,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/jaguar-the-effect.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_uploads\/kia-home.jpg": {
 		"ft": 16384,
 		"iS": 77641,
@@ -743,6 +768,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/persil.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/rspb-frogface.jpg": {
+		"ft": 16384,
+		"iS": 64289,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/rspb-frogface.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

@@ -94,7 +94,13 @@ p a {
 }
 
 h1 a {
-  border-bottom: 3px solid $white;
+  border-bottom: 1px solid $white;
+  @include breakpoint(medium) {
+   border-bottom: 2px solid $white;
+  }
+  @include breakpoint(large) {
+   border-bottom: 2px solid $white;
+  }
 }
 
 h1 a:hover {
@@ -128,35 +134,6 @@ h1 a:hover {
 }
 
 
-.excerpt {
-  position:relative;
-  &:hover .excerpt__title {
-  opacity: 1;
-  } 
-}
-
-.excerpt__title {
-  position:absolute;
-  width: 100%;
-  height: 100%;
-  margin: 0rem;
-  color: $black;
-  z-index: 1;
-  opacity: 0;
-  background-color: $white;
-}
-
-/*
-.home .navigation {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 100;
-  @include links ($black, $black)
-}
-*/
-
 .home .navigation--active {
   @include links ($white, $white)
 }
@@ -167,26 +144,6 @@ h1 a:hover {
   &::after {
     background-color: $black;
   }
-}
-
-.home__narrative {
-  @include links ($black, $dark-gray)
-  background-color: $white;
-}
-
-.home__narrative--active {
-  @include links ($white, $white)
-  background-color: $black;
-}
-
-.home__commercial {
-  @include links ($white, $white)
-  background-color: $black;
-}
-
-.home__commercial--active {
-  @include links ($black, $dark-gray)
-  background-color: $white;
 }
 
 .hamburger-inner {
@@ -213,9 +170,9 @@ h1 a:hover {
   min-height: 100vh;
   padding: 1rem;
   @include breakpoint(medium) {
-    padding: 1rem;
+    padding: 2rem;
   }
   @include breakpoint(large) {
-    padding: 1.5rem;
+    padding: 3rem;
   }
 }
