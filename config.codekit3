@@ -76,6 +76,13 @@
 		"oAP": "\/_archive\/bmw-olympics.markdown",
 		"oF": 0
 		},
+	"\/_archive\/channel-4-swear.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_archive\/channel-4-swear.markdown",
+		"oF": 0
+		},
 	"\/_archive\/discovery-cabbies.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -188,13 +195,6 @@
 		"oAP": "\/_commercial\/channel-4-russia.markdown",
 		"oF": 0
 		},
-	"\/_commercial\/channel-4-swear.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_commercial\/channel-4-swear.markdown",
-		"oF": 0
-		},
 	"\/_commercial\/disney-grand-adventure.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -202,18 +202,18 @@
 		"oAP": "\/_commercial\/disney-grand-adventure.markdown",
 		"oF": 0
 		},
+	"\/_commercial\/duracell-its-whats-inside.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_commercial\/duracell-its-whats-inside.markdown",
+		"oF": 0
+		},
 	"\/_commercial\/honda-blood-bike.markdown": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_commercial\/honda-blood-bike.markdown",
-		"oF": 0
-		},
-	"\/_commercial\/jaguar-the-effect copy.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_commercial\/jaguar-the-effect copy.markdown",
 		"oF": 0
 		},
 	"\/_commercial\/jaguar-the-effect.markdown": {
@@ -581,6 +581,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/disney.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/duracell-its-whats-inside.jpg": {
+		"ft": 16384,
+		"iS": 181242,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/duracell-its-whats-inside.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

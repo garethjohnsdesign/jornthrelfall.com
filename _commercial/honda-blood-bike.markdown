@@ -1,16 +1,16 @@
 ---
 title: Blood Bike
+date: 2011-09-21 00:00:00 Z
 tags:
 - home
 position: 1
 client: Honda
+agency:  Wieden & Kennedy London
 image: "/uploads/honda-blood-bike.jpg"
 vimeo: 82642891
-production-company: Spy Films
-dop: Tom O'Keefe
-producer: Sophie Dewey
-is-shown: true
-awards: Best Cinematography Award MACC 2015
+production-company:
+dop: Martin Hill
+producer:
+awards:
 layout: project
 ---
-
