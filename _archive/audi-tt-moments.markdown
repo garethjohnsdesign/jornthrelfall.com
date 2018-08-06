@@ -9,7 +9,7 @@ video: 283453894
 production-company: Outsider
 dop: Ekkehart Pollock
 producer: Melinda Nugent
-awards:
+awards: 
 layout: project
 ---
 

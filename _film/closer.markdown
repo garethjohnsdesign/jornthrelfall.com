@@ -6,6 +6,7 @@ tags:
 position: 1
 image: "/uploads/closer.jpg"
 video: 283446735
-awards:
+awards: 
 layout: project
 ---
+

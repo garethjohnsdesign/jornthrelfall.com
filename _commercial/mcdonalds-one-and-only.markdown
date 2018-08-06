@@ -8,7 +8,8 @@ image: "/uploads/mcdonalds.jpg"
 video: 283454336
 production-company: Outsider
 dop: Todd M Duym
-producer:
-awards:
+producer: 
+awards: 
 layout: project
 ---
+

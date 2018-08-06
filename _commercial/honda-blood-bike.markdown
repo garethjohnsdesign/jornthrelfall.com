@@ -5,12 +5,13 @@ tags:
 - home
 position: 1
 client: Honda
-agency:  Wieden & Kennedy London
+agency: Wieden & Kennedy London
 image: "/uploads/honda-blood-bike.jpg"
 video: 283454288
-production-company:
+production-company: 
 dop: Martin Hill
-producer:
-awards:
+producer: 
+awards: 
 layout: project
 ---
+

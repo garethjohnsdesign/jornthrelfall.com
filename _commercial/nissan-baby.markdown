@@ -7,8 +7,9 @@ agency: TBWA
 image: "/uploads/nissan-baby.jpg"
 video: 283454376
 production-company: Breathe Productions
-dop:
+dop: 
 producer: Liz Cházaro, Juan Mancera, Marisela Caropresi
-awards:
+awards: 
 layout: project
 ---
+

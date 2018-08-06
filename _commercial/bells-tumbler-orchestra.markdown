@@ -8,10 +8,8 @@ image: "/uploads/bells-whiskey.jpg"
 video: 283454186
 production-company: Outsider
 dop: Nanu Seagal
-producer:
-awards:
+producer: 
+awards: 
 layout: project
 ---
-
-
 

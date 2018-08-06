@@ -6,9 +6,10 @@ client: Hyundai
 agency: Richards Group
 image: "/uploads/hyundai-lifeshapes.jpg"
 video: 283471625
-production-company:
-dop:
-producer:
-awards:
+production-company: 
+dop: 
+producer: 
+awards: 
 layout: project
 ---
+

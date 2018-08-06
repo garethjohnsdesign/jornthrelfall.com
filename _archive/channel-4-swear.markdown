@@ -6,9 +6,10 @@ client: Channel 4
 agency: 4creative
 image: "/uploads/channel4-swear.jpg"
 video: 283454241
-production-company:
-dop:
-producer:
-awards:
+production-company: 
+dop: 
+producer: 
+awards: 
 layout: project
 ---
+

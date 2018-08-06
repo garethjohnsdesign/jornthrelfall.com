@@ -1,8 +1,8 @@
 ---
 title: Spotlight
+date: 2014-09-18 00:00:00 Z
 tags:
 - home
-date: 2014-09-18 00:00:00 Z
 position: 1
 client: Nissan X Trail
 agency: TBWA
@@ -11,6 +11,7 @@ video: 283454412
 production-company: Outsider
 dop: Juan Fontana
 producer: Marisela Caropresi
-awards:
+awards: 
 layout: project
 ---
+

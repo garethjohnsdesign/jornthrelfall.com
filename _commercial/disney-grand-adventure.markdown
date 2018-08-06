@@ -9,7 +9,7 @@ video: 283454256
 production-company: Outsider
 dop: Jacob Ihre
 producer: Jeremy Bannister / Richard Packer
-awards:
+awards: 
 layout: project
 ---
 

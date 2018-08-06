@@ -6,9 +6,10 @@ client: Honda
 agency: Weiden & Kennedy
 image: "/uploads/honda-alpaca.jpg"
 video: 283454009
-production-company:
-dop:
-producer:
-awards:
+production-company: 
+dop: 
+producer: 
+awards: 
 layout: project
 ---
+
