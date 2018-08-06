@@ -5,7 +5,7 @@ position: 1
 client: Bells
 agency: Adam&Eve
 image: "/uploads/bells-whiskey.jpg"
-vimeo: 82642891
+video: 283454186
 production-company: Outsider
 dop: Nanu Seagal
 producer:

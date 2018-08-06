@@ -1,11 +1,10 @@
 ---
 title: Archive
 position: 1
-layout: projects
+layout: archive
 pagination:
   enabled: true
   collection: archive
   sort_field: position
-  sort_reverse: false
 ---
 

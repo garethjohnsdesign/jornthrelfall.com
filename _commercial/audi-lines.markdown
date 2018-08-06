@@ -5,11 +5,10 @@ position: 1
 client: Audi
 agency: Ammirati Puris Lintas Shanghai
 image: "/uploads/audi-lines.jpg"
-vimeo: 82642891
+video: 283454159
 production-company: Outsider
 dop: Ekkehart Pollack
 producer: Sally Fu
 awards:
 layout: project
 ---
-

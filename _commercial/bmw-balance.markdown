@@ -5,7 +5,7 @@ position: 1
 client: BMW
 agency:
 image: "/uploads/bmw-balance.jpg"
-vimeo: 82642891
+video: 283454204
 production-company: Outsider
 dop:
 producer:

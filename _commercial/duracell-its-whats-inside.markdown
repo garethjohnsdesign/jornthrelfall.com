@@ -7,8 +7,8 @@ position: 1
 client: Duracell
 agency: Feref
 image: "/uploads/duracell-its-whats-inside.jpg"
-vimeo: 82642891
-production-company:
+video: 283458619
+production-company: Outsider
 dop: Polly Morgan
 producer: Nick Sutherland-Dodd
 awards:

@@ -1,14 +1,14 @@
 ---
 title: One and Only
+date: 2013-09-09 00:00:00 Z
 position: 1
-client: McDonald's
+client: McDonalds
+agency: Cossette Communications
 image: "/uploads/mcdonalds.jpg"
-vimeo: 82642891
-production-company: Spy Films
-dop: Tom O'Keefe
-producer: Sophie Dewey
-is-shown: true
-awards: Best Cinematography Award MACC 2015
+video: 283454336
+production-company: Outsider
+dop: Todd M Duym
+producer:
+awards:
 layout: project
 ---
-

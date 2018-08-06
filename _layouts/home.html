@@ -4,7 +4,7 @@ layout: default
 
 <!-- Company Description -->
 <div class="grid-x grid-padding-x grid-padding-y padding-top-2 padding-bottom-2 align-center" data-aos="fade-in">
-  <div class="small-12 medium-10 large-10 xlarge-8 xxlarge-8 cell text-center">{{page.description | markdownify}}</div>
+  <div class="small-12 medium-11 large-10 xlarge-9 xxlarge-8 cell text-center">{{page.description | markdownify}}</div>
 </div>
 <!-- End Company Description -->
 
@@ -15,7 +15,7 @@ layout: default
   <div class="small-12 medium-10 large-10 xxlarge-8 cell text-center">Selected Projects</div>
 </div>
 
-<div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-1 large-up-2 xlarge-up-2 xxlarge-up-3">
+<div class="grid-x grid-padding-x small-up-1 medium-up-1 large-up-2 xlarge-up-2 xxlarge-up-3">
   {% assign projects = paginator.posts %}
   {% for project in projects %}
     {% include excerpt.html %}

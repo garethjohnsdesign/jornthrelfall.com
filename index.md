@@ -6,8 +6,9 @@ description: "# Bafta-nominated director specialising in [film](/film) and [comm
 layout: home
 pagination:
   enabled: true
-  collection: commercial, narrative
-  sort_field: position
+  collection: commercial, film
+  sort_field: date
+  sort_reverse: true
   tag: home
 ---
 
