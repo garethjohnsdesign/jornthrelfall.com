@@ -1,14 +1,15 @@
 ---
 title: Human Car
+date: 2008-03-11 00:00:00 Z
 position: 1
 client: Ford
+agency:
 image: "/uploads/ford-human-car.jpg"
-vimeo: 82642891
-production-company: Spy Films
-dop: Tom O'Keefe
-producer: Sophie Dewey
-is-shown: true
-awards: Best Cinematography Award MACC 2015
+video: 283453980
+production-company: Blink Pictures
+dop: Ian Foster
+producer: Benji Howell
+awards:
 layout: project
 ---
 

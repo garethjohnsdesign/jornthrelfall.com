@@ -1,14 +1,14 @@
 ---
 title: Lifeshapes
+date: 2000-01-01 00:00:00 Z
 position: 1
 client: Hyundai
+agency: Richards Group
 image: "/uploads/hyundai-lifeshapes.jpg"
-vimeo: 82642891
-production-company: Spy Films
-dop: Tom O'Keefe
-producer: Sophie Dewey
-is-shown: true
-awards: Best Cinematography Award MACC 2015
+video: 283471625
+production-company:
+dop:
+producer:
+awards:
 layout: project
 ---
-

@@ -1,14 +1,15 @@
 ---
 title: Cabbies
+date: 2000-01-01 00:00:00 Z
 position: 1
 client: Discovery Channel
+agency:
 image: "/uploads/discovery-cabbies.jpg"
-vimeo: 82642891
-production-company: Spy Films
-dop: Tom O'Keefe
-producer: Sophie Dewey
-is-shown: true
-awards: Best Cinematography Award MACC 2015
+video: 283453943
+production-company:
+dop:
+producer:
+awards:
 layout: project
 ---
 

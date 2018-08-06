@@ -125,13 +125,6 @@
 		"oAP": "\/_archive\/kia-home.markdown",
 		"oF": 0
 		},
-	"\/_archive\/nissan-spotlight.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_archive\/nissan-spotlight.markdown",
-		"oF": 0
-		},
 	"\/_archive\/nissan-synchronicity.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -235,6 +228,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_commercial\/nissan-baby.markdown",
+		"oF": 0
+		},
+	"\/_commercial\/nissan-spotlight.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_commercial\/nissan-spotlight.markdown",
 		"oF": 0
 		},
 	"\/_commercial\/nutella-breakfast.markdown": {
