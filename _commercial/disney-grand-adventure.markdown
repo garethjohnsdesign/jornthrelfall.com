@@ -1,8 +1,6 @@
 ---
 title: The Grand Adventure
 date: 2014-09-08 00:00:00 Z
-tags:
-- home
 position: 1
 client: Disney
 agency: Wieden+Kennedy Shanghai

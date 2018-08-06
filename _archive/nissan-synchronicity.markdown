@@ -1,14 +1,14 @@
 ---
 title: Synchronicity
+date: 2000-01-01 00:00:00 Z
 position: 1
 client: Nissan
+agency:
 image: "/uploads/nissan-synchronicity.jpg"
-vimeo: 82642891
-production-company: Spy Films
-dop: Tom O'Keefe
-producer: Sophie Dewey
-is-shown: true
-awards: Best Cinematography Award MACC 2015
+video: 283474038
+production-company:
+dop:
+producer:
+awards:
 layout: project
 ---
-

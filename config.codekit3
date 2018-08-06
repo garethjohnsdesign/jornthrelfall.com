@@ -251,6 +251,13 @@
 		"oAP": "\/_commercial\/persil-set-free.markdown",
 		"oF": 0
 		},
+	"\/_commercial\/rspb-frogface.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_commercial\/rspb-frogface.markdown",
+		"oF": 0
+		},
 	"\/_config.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -6911,7 +6918,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/dist\/js\/lightgallery.min.js",
 		"oF": 0,
 		"sC": 1,
@@ -7118,7 +7125,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/modules\/lg-video.min.js",
 		"oF": 0,
 		"sC": 1,
@@ -9113,14 +9120,8 @@
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lightgallery.min.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/turbolinks5\/dist\/turbolinks.js",
 			"position": 3,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/modules\/lg-video.min.js",
-			"position": 4,
 			"type": 0
 			}
 		],
