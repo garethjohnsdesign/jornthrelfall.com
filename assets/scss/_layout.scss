@@ -95,6 +95,7 @@ p a {
 
 h1 a {
   border-bottom: 1px solid $white;
+  transition: border-bottom .35s cubic-bezier(.39, .575, .565, 1);
   @include breakpoint(medium) {
    border-bottom: 2px solid $white;
   }
@@ -105,6 +106,7 @@ h1 a {
 
 h1 a:hover {
   border-bottom: 3px solid $black;
+  transition: border-bottom .35s cubic-bezier(.39, .575, .565, 1);
 }
 
 
@@ -175,4 +177,29 @@ h1 a:hover {
   @include breakpoint(large) {
     padding: 3rem;
   }
+}
+
+.excerpt a {
+  .excerpt__text span {
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid transparent;
+  transition: $primary-transition;
+  }
+}
+
+.excerpt a:hover {
+  .excerpt__text span {
+  border-bottom: 1px solid $white;
+  transition: $primary-transition;
+  }
+}
+  
+    
+.excerpt a img {
+  transition: $primary-transition;
+}
+
+.excerpt a:hover img {
+  filter: saturate(100%) brightness(70%);
+  transition: $primary-transition;
 }

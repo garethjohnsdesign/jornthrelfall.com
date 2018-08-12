@@ -356,13 +356,6 @@
 		"oAP": "\/_includes\/scripts.html",
 		"oF": 0
 		},
-	"\/_includes\/subscribe.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/subscribe.html",
-		"oF": 0
-		},
 	"\/_layouts\/about.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -389,13 +382,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/compress.html",
-		"oF": 0
-		},
-	"\/_layouts\/cv.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/cv.html",
 		"oF": 0
 		},
 	"\/_layouts\/default.html": {
@@ -783,6 +769,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_uploads\/over-awards.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_uploads\/over-awards.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/_uploads\/over.jpg": {
 		"ft": 16384,
 		"iS": 109970,
@@ -1162,19 +1158,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/assets\/scss\/_carousel.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_carousel.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/assets\/scss\/_fonts.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1236,19 +1219,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_loading.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/scss\/_mapbox.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_mapbox.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -9007,6 +8977,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/info.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/info.html",
+		"oF": 0
 		},
 	"\/info.md": {
 		"cB": 0,

@@ -6,7 +6,7 @@ tags:
 position: 1
 image: "/uploads/over.jpg"
 video: 283446915
-awards: 
+awards-image: "/uploads/over-awards.svg"
 layout: project
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: One and Only
 date: 2013-09-09 00:00:00 Z
+tags:
+- home
 position: 1
 client: McDonalds
 agency: Cossette Communications

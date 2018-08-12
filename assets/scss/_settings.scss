@@ -66,11 +66,20 @@
 // ---------
 
 $global-font-size: 100%;
-// $global-font-size: 150%;
+$global-font-size: 110%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
+/*
 $foundation-palette: (
   primary: #1779ba,
+  secondary: #767676,
+  success: #3adb76,
+  warning: #ffae00,
+  alert: #cc4b37,
+);
+*/
+$foundation-palette: (
+  primary: #ffffff,
   secondary: #767676,
   success: #3adb76,
   warning: #ffae00,
