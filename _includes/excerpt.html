@@ -1,4 +1,4 @@
-<div class="cell">
+<div class="cell excerpt">
   <a href="{{ project.url }}">
         <div class="grid-x grid-padding-y">
           <div class="small-12 cell text-center text-uppercase">
@@ -10,10 +10,13 @@
         
         <div class="grid-x">
           <div class="small-12 cell text-center">
+            <div class="excerpt__text"><span>
             {{ project.title }}
             {% if project.client %}
-            — {{ project.client }}</h2>
+            — {{ project.client }}
             {% endif %}
+            </span>
+            </div>
           </div>
         </div>
   </a>
