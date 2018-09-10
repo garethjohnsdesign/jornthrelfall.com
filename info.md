@@ -1,6 +1,6 @@
 ---
 title: Info
-layout: info
+layout: page
 ---
 
 UK  
