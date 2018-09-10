@@ -1039,30 +1039,6 @@
 		"oAP": "\/assets\/fonts\/founders-grotesk-regular.woff2",
 		"oF": 0
 		},
-	"\/assets\/fonts\/gallery.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/gallery.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/gallery.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/gallery.woff2",
-		"oF": 0
-		},
-	"\/assets\/icons\/logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/icons\/logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/assets\/icons\/symbol-defs.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1073,9 +1049,19 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/img\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/img\/og-image.png": {
 		"ft": 32768,
-		"iS": 67758,
+		"iS": 21803,
 		"oA": 0,
 		"oAP": "\/assets\/img\/og-image.png",
 		"oF": 0,
