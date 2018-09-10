@@ -43,7 +43,7 @@ svg {
 }
 
 ::selection {
-  background: $primary-color;
+  background: $white;
   color: $black;
 }
 
@@ -93,7 +93,9 @@ p a {
   border-bottom: 1px solid $white;
 }
 
+/*
 h1 a {
+  line-height: 1.1;
   border-bottom: 1px solid $white;
   transition: border-bottom .35s cubic-bezier(.39, .575, .565, 1);
   @include breakpoint(medium) {
@@ -103,11 +105,8 @@ h1 a {
    border-bottom: 2px solid $white;
   }
 }
+*/
 
-h1 a:hover {
-  border-bottom: 3px solid $black;
-  transition: border-bottom .35s cubic-bezier(.39, .575, .565, 1);
-}
 
 
 // 6. Navigation
@@ -132,20 +131,7 @@ h1 a:hover {
 // -------------
 
 .off-canvas {
-  @include links ($black,$dark-gray)
-}
-
-
-.home .navigation--active {
-  @include links ($white, $white)
-}
-
-.navigation--active .hamburger-inner {
-  &,
-  &::before,
-  &::after {
-    background-color: $black;
-  }
+  @include links ($white, $dark-gray)
 }
 
 .hamburger-inner {
@@ -162,7 +148,7 @@ h1 a:hover {
       &,
       &::before,
       &::after {
-        background-color: $black;
+        background-color: $white;
       }
     }
   }
@@ -193,8 +179,7 @@ h1 a:hover {
   transition: $primary-transition;
   }
 }
-  
-    
+      
 .excerpt a img {
   transition: $primary-transition;
 }
