@@ -356,13 +356,6 @@
 		"oAP": "\/_includes\/scripts.html",
 		"oF": 0
 		},
-	"\/_layouts\/about.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/about.html",
-		"oF": 0
-		},
 	"\/_layouts\/archive.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -403,13 +396,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/home.html",
-		"oF": 0
-		},
-	"\/_layouts\/info.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/info.html",
 		"oF": 0
 		},
 	"\/_layouts\/missing.html": {
