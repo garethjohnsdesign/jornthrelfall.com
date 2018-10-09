@@ -48,7 +48,7 @@ highlighter: rouge
 colophon: http://garethjohnsdesign.com
 company: Jörn Threlfall
 email: info@jornthrelfall.com
-analytics: 
+analytics: UA-61972147-1
 logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%d %B %Y"
