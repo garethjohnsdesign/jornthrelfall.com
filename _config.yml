@@ -17,9 +17,8 @@ collections:
   uploads:
     title: Uploads
     output: false
-url: https://www.http://jornthrelfall.com
-description: Jörn Threlfall is a director based in London, where he’s represented
-  for commercials by Outsider.
+url: https://www.jornthrelfall.com
+description: Jörn Threlfall is a Bafta-nomitated director, represented by Outsider.
 permalink: pretty
 exclude:
 - bower.json
@@ -48,7 +47,7 @@ highlighter: rouge
 colophon: http://garethjohnsdesign.com
 company: Jörn Threlfall
 email: info@jornthrelfall.com
-analytics: 
+analytics: UA-61972147-1
 logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%d %B %Y"
