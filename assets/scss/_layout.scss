@@ -51,14 +51,6 @@ svg {
   outline: 0;
 }
 
-// 3. Plugins
-// ----------
-
-.turbolinks-progress-bar {
-  height: 5px;
-  background-color: $primary-color;
-}
-
 // 4. Color
 // --------
 
@@ -106,6 +98,14 @@ h1 a {
   }
 }
 */
+
+.sans-regular {
+  font-family: $sans-regular;
+}
+
+.sans-bold {
+  font-family: $sans-bold;
+}
 
 
 

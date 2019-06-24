@@ -1,8 +1,17 @@
 @font-face {
-  font-family: 'Founders';
+  font-family: 'NeuzeitSLTStd-Book';
   src: 
-  url('../fonts/founders-grotesk-regular.woff2') format('woff2'), 
-  url('../fonts/founders-grotesk-regular.woff') format('woff');
+  url('../fonts/NeuzeitSLTStd-Book.woff2') format('woff2'), 
+  url('../fonts/NeuzeitSLTStd-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeuzeitSLTStd-BookHeavy';
+  src: 
+  url('../fonts/NeuzeitSLTStd-BookHeavy.woff2') format('woff2'), 
+  url('../fonts/NeuzeitSLTStd-BookHeavy.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
