@@ -51,11 +51,32 @@ svg {
   outline: 0;
 }
 
-// 4. Color
+// 5. Color
 // --------
 
 .white {
   color: $white;
+  @include links ($white, $medium-gray);
+}
+
+.medium-gray {
+  color: $medium-gray;
+  @include links ($medium-gray, $black);
+}
+
+.light-gray {
+  color: $light-gray;
+  @include links ($light-gray, $medium-gray);
+}
+
+.dark-gray {
+  color: $dark-gray;
+  @include links ($dark-gray, $white);
+}
+
+.black {
+  color: $black;
+  @include links ($black, $medium-gray);
 }
 
 .primary-color {
@@ -64,6 +85,22 @@ svg {
 
 .secondary-color {
   color: get-color(secondary);
+}
+
+.light-gray-background {
+  background-color: $light-gray;
+}
+
+.medium-gray-background {
+  background-color: $medium-gray;
+}
+
+.dark-gray-background {
+  background-color: $dark-gray;
+}
+
+.black-background {
+  background-color: $black;
 }
 
 // 5. Typography
@@ -162,21 +199,6 @@ h1 a {
   }
   @include breakpoint(large) {
     padding: 3rem;
-  }
-}
-
-.excerpt a {
-  .excerpt__text span {
-  padding-bottom: 0.25rem;
-  border-bottom: 1px solid transparent;
-  transition: $primary-transition;
-  }
-}
-
-.excerpt a:hover {
-  .excerpt__text span {
-  border-bottom: 1px solid $white;
-  transition: $primary-transition;
   }
 }
       
