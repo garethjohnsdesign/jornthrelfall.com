@@ -210,3 +210,55 @@ h1 a {
   filter: saturate(100%) brightness(70%);
   transition: $primary-transition;
 }
+
+// 3. Animations
+// -------------
+
+.swup-transition-fade {
+  transition: 0.4s;
+  opacity: 1;
+}
+
+html.is-animating .swup-transition-fade {
+  opacity: 0;
+}
+
+.swup-transition-left {
+  transition: 0.4s;
+  transform: translateX(0);
+}
+
+html.is-animating .swup-transition-left {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
+.swup-transition-up {
+  transform: translateY(0);
+  transition: 0.4s;
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+html.is-animating .swup-transition-up {
+  opacity: 0;
+  transform: translateY(-1rem);
+}
+
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.viewport-header {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

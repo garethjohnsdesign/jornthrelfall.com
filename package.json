@@ -8,11 +8,16 @@
     "email": "info@garethjohnsdesign.com"
   },
   "dependencies": {
+    "@swup/body-class-plugin": "^1.0.1",
+    "@swup/scripts-plugin": "^1.0.1",
     "aos": "^2.3.4",
     "foundation-sites": "^6.5.1",
     "jquery": ">=3.0.0",
+    "lg-fullscreen": "^1.1.0",
+    "lg-video": "^1.2.2",
     "lightgallery": "^1.6.12",
     "motion-ui": "~2.0.0",
+    "swup": "^2.0.5",
     "what-input": "^5.1.2"
   },
   "private": true

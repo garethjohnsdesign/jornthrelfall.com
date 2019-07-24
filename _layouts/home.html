@@ -1,11 +1,29 @@
 ---
-layout: default
+layout: compress
 ---
 
-<div class="grid-x grid-padding-x small-up-1 medium-up-1 large-up-2 xlarge-up-2 xxlarge-up-2">
-  {% assign projects = paginator.posts %}
-  {% for project in projects %}
-    {% include excerpt.html %}
-  {% endfor %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="no-js">
+
+<!-- Head -->
+{% include head.html %}
+<!-- End Head -->
+
+<body class="{{page.layout | slugify}}">
+
+<div id="swup-body">
+	<video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
+  <source src="uploads/jorn-splash.mp4" type="video/mp4">
+</video>
+
+<header class="viewport-header">
+  <div class="text-uppercase font-wide"><a data-toggle="offCanvas" class="text-uppercase font-wide">{{site.title}}</a></div>
+</header>
+
 </div>
-<!-- End Selected Projects -->
+
+</div>
+
+</body>
+
+</html>
