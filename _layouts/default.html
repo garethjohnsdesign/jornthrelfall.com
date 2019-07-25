@@ -3,28 +3,24 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html class="no-js" lang="en" dir="ltr">
+<html lang="en" dir="ltr" class="no-js">
 
 <!-- Head -->
 {% include head.html %}
 <!-- End Head -->
 
-<body>
-  
-<!-- Off Canvas Navigation -->
-<div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap" data-close-on-click="false" data-content-scroll="false">
-{% include offcanvas.html %}
-</div>
-<!-- End Off Canvas Navigation --> 
+<body class="{{page.layout | slugify}}">
 
-<div class="wrapper grid-y off-canvas-content align-justify {{page.layout | slugify}}" data-off-canvas-content>
+<div class="wrapper grid-y align-justify {{page.layout | slugify}}" data-off-canvas-content>
 <!-- Navigation -->
 {% include navigation.html %}
 <!-- End Navigation -->
 
+<div class="swup-transition-fade" id="swup-body">
 <!-- Content -->
 {{content}}
 <!-- End Content -->
+</div>
 
 <!-- Footer -->
 {% include footer.html %}

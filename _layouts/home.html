@@ -1,11 +1,43 @@
 ---
-layout: default
+layout: compress
 ---
 
-<div class="grid-x grid-padding-x small-up-1 medium-up-1 large-up-2 xlarge-up-2 xxlarge-up-2">
-  {% assign projects = paginator.posts %}
-  {% for project in projects %}
-    {% include excerpt.html %}
-  {% endfor %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="no-js">
+
+<!-- Head -->
+{% include head.html %}
+<!-- End Head -->
+
+<body class="{{page.layout | slugify}}">
+
+<div class="swup-transition-fade" id="swup-body">
+
+<video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
+<source src="uploads/jorn-splash.mp4" type="video/mp4">
+</video>
+
+
+<div class="grid-y align-center-middle navigation" style="height: 100vh;">
+  <div class="shrink cell" style="z-index: 10;">
+
+    <div class="home__title">
+      <div class="text-uppercase font-wide h3" data-aos="fade-in">{{site.title}}</div>
+    </div>
+
+    <div class="home__menu hide">
+      <ul class="menu align-center">
+        {% for entry in site.data.navigation %}
+        <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="text-uppercase font-wide">{{ entry.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </div>
 </div>
-<!-- End Selected Projects -->
+
+</div>
+
+</body>
+
+</html>

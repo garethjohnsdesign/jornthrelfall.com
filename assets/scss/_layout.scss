@@ -18,6 +18,9 @@
 //   16. Footer
 
 
+$primary-transition: all .35s cubic-bezier(.39, .575, .565, 1);
+
+
 // 1. Mixins
 // ---------
 
@@ -27,6 +30,27 @@
     &:hover {
       color: $hover;   
     }
+  }
+}
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+ .content {
+    transition: $primary-transition;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
   }
 }
 
@@ -51,19 +75,32 @@ svg {
   outline: 0;
 }
 
-// 3. Plugins
-// ----------
-
-.turbolinks-progress-bar {
-  height: 5px;
-  background-color: $primary-color;
-}
-
-// 4. Color
+// 5. Color
 // --------
 
 .white {
   color: $white;
+  @include links ($white, $medium-gray);
+}
+
+.medium-gray {
+  color: $medium-gray;
+  @include links ($medium-gray, $black);
+}
+
+.light-gray {
+  color: $light-gray;
+  @include links ($light-gray, $medium-gray);
+}
+
+.dark-gray {
+  color: $dark-gray;
+  @include links ($dark-gray, $white);
+}
+
+.black {
+  color: $black;
+  @include links ($black, $medium-gray);
 }
 
 .primary-color {
@@ -74,38 +111,76 @@ svg {
   color: get-color(secondary);
 }
 
-// 5. Typography
-// -------------
-
-.underline {
-  border-bottom: 1px solid $black;
+.light-gray-background {
+  background-color: $light-gray;
 }
 
-.uppercase {
-  text-transform: uppercase;
+.medium-gray-background {
+  background-color: $medium-gray;
+}
+
+.dark-gray-background {
+  background-color: $dark-gray;
+}
+
+.black-background {
+  background-color: $black;
+}
+
+// 6. Typography
+// -------------
+
+.small {
+  font-size: 80%;
+  letter-spacing: 0.1rem;
+}
+
+.menu .menu-text {
+  font-weight: normal;
+}
+
+strong, b {
+  font-family: $sans-bold;
+}
+
+a {
+  transition: color .35s cubic-bezier(.39, .575, .565, 1);
+}
+
+.text-underline {
+  border-bottom: 1px solid get-color(primary);
 }
 
 i, cite, em, var, address, dfn {
   font-style: normal;
 }
 
-p a {
-  border-bottom: 1px solid $white;
+p {
+  a {
+    border-bottom: 1px solid get-color(primary);
+    transition: border-bottom .35s cubic-bezier(.39, .575, .565, 1);
+    &:hover {
+      border-bottom: 1px solid transparent;   
+    }
+  }
 }
 
-/*
-h1 a {
-  line-height: 1.1;
-  border-bottom: 1px solid $white;
-  transition: border-bottom .35s cubic-bezier(.39, .575, .565, 1);
-  @include breakpoint(medium) {
-   border-bottom: 2px solid $white;
-  }
-  @include breakpoint(large) {
-   border-bottom: 2px solid $white;
-  }
+.sans-regular {
+  font-family: $sans-regular;
 }
-*/
+
+.sans-bold {
+  font-family: $sans-bold;
+}
+
+// 7. Layout
+// ---------
+
+.image {
+  @include aspect-ratio (2.4, 1);
+  background-size: cover; 
+  background-position: 50%;
+}
 
 
 
@@ -116,14 +191,6 @@ h1 a {
   width: 100%;
   .cell {
 	z-index: 14; 
-  }
-}
-
-.hamburger-inner {
-  &,
-  &::before,
-  &::after {
-    background-color: $white;
   }
 }
 
@@ -164,21 +231,6 @@ h1 a {
     padding: 3rem;
   }
 }
-
-.excerpt a {
-  .excerpt__text span {
-  padding-bottom: 0.25rem;
-  border-bottom: 1px solid transparent;
-  transition: $primary-transition;
-  }
-}
-
-.excerpt a:hover {
-  .excerpt__text span {
-  border-bottom: 1px solid $white;
-  transition: $primary-transition;
-  }
-}
       
 .excerpt a img {
   transition: $primary-transition;
@@ -187,4 +239,64 @@ h1 a {
 .excerpt a:hover img {
   filter: saturate(100%) brightness(70%);
   transition: $primary-transition;
+}
+
+// 3. Animations
+// -------------
+
+.swup-transition-fade {
+  transition: 0.4s;
+  opacity: 1;
+}
+
+html.is-animating .swup-transition-fade {
+  opacity: 0;
+}
+
+.swup-transition-left {
+  transition: 0.4s;
+  transform: translateX(0);
+}
+
+html.is-animating .swup-transition-left {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
+.swup-transition-up {
+  transform: translateY(0);
+  transition: 0.4s;
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+html.is-animating .swup-transition-up {
+  opacity: 0;
+  transform: translateY(-1rem);
+}
+
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.project__client {
+  padding-right: 0.5rem;
+}
+
+
+.navigation {
+  transform: all .35s cubic-bezier(.39, .575, .565, 1);
+}
+
+.home__title {
+  transform: all .35s cubic-bezier(.39, .575, .565, 1);
+}
+
+.home__menu {
+  transform: all .35s cubic-bezier(.39, .575, .565, 1);
 }
