@@ -18,6 +18,9 @@
 //   16. Footer
 
 
+$primary-transition: all .35s cubic-bezier(.39, .575, .565, 1);
+
+
 // 1. Mixins
 // ---------
 
@@ -27,6 +30,27 @@
     &:hover {
       color: $hover;   
     }
+  }
+}
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+ .content {
+    transition: $primary-transition;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
   }
 }
 
@@ -103,38 +127,43 @@ svg {
   background-color: $black;
 }
 
-// 5. Typography
+// 6. Typography
 // -------------
 
-.underline {
-  border-bottom: 1px solid $black;
+.small {
+  font-size: 80%;
+  letter-spacing: 0.1rem;
 }
 
-.uppercase {
-  text-transform: uppercase;
+.menu .menu-text {
+  font-weight: normal;
+}
+
+strong, b {
+  font-family: $sans-bold;
+}
+
+a {
+  transition: color .35s cubic-bezier(.39, .575, .565, 1);
+}
+
+.text-underline {
+  border-bottom: 1px solid get-color(primary);
 }
 
 i, cite, em, var, address, dfn {
   font-style: normal;
 }
 
-p a {
-  border-bottom: 1px solid $white;
-}
-
-/*
-h1 a {
-  line-height: 1.1;
-  border-bottom: 1px solid $white;
-  transition: border-bottom .35s cubic-bezier(.39, .575, .565, 1);
-  @include breakpoint(medium) {
-   border-bottom: 2px solid $white;
-  }
-  @include breakpoint(large) {
-   border-bottom: 2px solid $white;
+p {
+  a {
+    border-bottom: 1px solid get-color(primary);
+    transition: border-bottom .35s cubic-bezier(.39, .575, .565, 1);
+    &:hover {
+      border-bottom: 1px solid transparent;   
+    }
   }
 }
-*/
 
 .sans-regular {
   font-family: $sans-regular;
@@ -142,6 +171,15 @@ h1 a {
 
 .sans-bold {
   font-family: $sans-bold;
+}
+
+// 7. Layout
+// ---------
+
+.image {
+  @include aspect-ratio (2.4, 1);
+  background-size: cover; 
+  background-position: 50%;
 }
 
 
@@ -153,14 +191,6 @@ h1 a {
   width: 100%;
   .cell {
 	z-index: 14; 
-  }
-}
-
-.hamburger-inner {
-  &,
-  &::before,
-  &::after {
-    background-color: $white;
   }
 }
 
@@ -254,11 +284,19 @@ video {
   left: 0;
 }
 
-.viewport-header {
-  position: relative;
-  height: 100vh;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.project__client {
+  padding-right: 0.5rem;
+}
+
+
+.navigation {
+  transform: all .35s cubic-bezier(.39, .575, .565, 1);
+}
+
+.home__title {
+  transform: all .35s cubic-bezier(.39, .575, .565, 1);
+}
+
+.home__menu {
+  transform: all .35s cubic-bezier(.39, .575, .565, 1);
 }

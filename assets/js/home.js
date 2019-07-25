@@ -3,17 +3,7 @@
 
 import $ from "jquery";
 import Foundation from 'foundation-sites';
-/*
-import "lightGallery";
-import "lg-fullscreen";
-import "lg-video";
-*/
 import AOS from 'aos';
-import Swup from 'swup';
-import SwupBodyClassPlugin from "@swup/body-class-plugin";
-
-$( document ).ready( function() {
-  function init() {
 
 // 2. Special Queries
 // ------------------
@@ -63,23 +53,3 @@ $(function() {
 $(function() {
   window.addEventListener('load', AOS.refresh);
 });
-}
-
-// 9. Page Transitions
-// -------------------
-
-const options = {
-  animationSelector: '[class*="swup-transition-"]',
-  containers: [ '#swup-body' ],
-  plugins: [ new SwupBodyClassPlugin() ]
-};
-const swup = new Swup( options );
-
-// 10. Run Once
-// ------------
-
-init();
-
-swup.on( 'contentReplaced', init );
-
-} );

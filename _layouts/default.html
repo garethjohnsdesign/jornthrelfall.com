@@ -11,14 +11,16 @@ layout: compress
 
 <body class="{{page.layout | slugify}}">
 
-<div class="wrapper grid-y align-justify {{page.layout | slugify}}" data-off-canvas-content id="swup-body">
+<div class="wrapper grid-y align-justify {{page.layout | slugify}}" data-off-canvas-content>
 <!-- Navigation -->
 {% include navigation.html %}
 <!-- End Navigation -->
 
+<div class="swup-transition-fade" id="swup-body">
 <!-- Content -->
 {{content}}
 <!-- End Content -->
+</div>
 
 <!-- Footer -->
 {% include footer.html %}

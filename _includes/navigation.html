@@ -1,30 +1,17 @@
-<!-- Navigation -->
-<div class="grid-x grid-padding-x grid-padding-y align-center navigation">
+<div class="grid-y align-center-middle navigation" style="height: 4rem;">
+  <div class="shrink cell" style="z-index: 10;">
 
-  <div class="shrink cell">
-    <ul class="menu align-center">
-      {% for entry in site.data.navigation %}
-      {% if entry.url == current_page %}
-      {% assign current = ' class="active"' %}
-      {% else %}
-      {% assign current = null %}
-      {% endif %}
-      {% assign sublinks = entry.sublinks %}
-      {% if sublinks %}
-      <li{{ current }}>
-      <a href="{{ site.baseurl }}{{ entry.url }}" class="text-uppercase font-wide">{{ entry.title }}</a>
-      <ul class="menu vertical">
-      {% for sublink in sublinks %}
-      <li><a href="{{ site.baseurl }}{{ sublink.url }}" class="text-uppercase font-wide">{{ sublink.title }}</a></li>
-      {% endfor %}
+    <div class="home__title">
+      <div class="text-uppercase font-wide">{{site.title}}</div>
+    </div>
+
+    <div class="home__menu hide">
+      <ul class="menu align-center">
+        {% for entry in site.data.navigation %}
+        <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="text-uppercase font-wide">{{ entry.title }}</a></li>
+        {% endfor %}
       </ul>
-      </li>
-      {% else %}
-      <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="text-uppercase font-wide">{{ entry.title }}</a></li>
-      {% endif %}
-      {% endfor %}
-    </ul>
+    </div>
+
   </div>
-  
 </div>
-<!-- End Navigation -->

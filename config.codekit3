@@ -7,7 +7,7 @@
 		"uuidString": "EDB44E38-DB9B-408C-B9C2-C572FB45B1A6"
 		}
 	],
-"creatorBuild": "31483",
+"creatorBuild": "31486",
 "files": {
 	"/.gitattributes": {
 		"cB": 0,
@@ -236,12 +236,20 @@
 		"oAP": "/_commercial/jaguar-the-effect.markdown",
 		"oF": 0
 		},
-	"/_commercial/jeep-grand-cherokee.markdown": {
+	"/_commercial/jeep-cherokee.markdown": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/_commercial/jeep-grand-cherokee.markdown",
+		"oAP": "/_commercial/jeep-cherokee.markdown",
+		"oF": 0
+		},
+	"/_commercial/jeep-grand-commander.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_commercial/jeep-grand-commander.markdown",
 		"oF": 0
 		},
 	"/_commercial/libero-love-every-moment.markdown": {
@@ -380,12 +388,28 @@
 		"oAP": "/_includes/head.html",
 		"oF": 0
 		},
-	"/_includes/images/excerpt.html": {
+	"/_includes/images/interchange-img-small-12-medium-12-cell.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/_includes/images/excerpt.html",
+		"oAP": "/_includes/images/interchange-img-small-12-medium-12-cell.html",
+		"oF": 0
+		},
+	"/_includes/images/interchange-img-small-12-medium-4-cell.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/interchange-img-small-12-medium-4-cell.html",
+		"oF": 0
+		},
+	"/_includes/images/interchange-img-small-12-medium-6-cell.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/images/interchange-img-small-12-medium-6-cell.html",
 		"oF": 0
 		},
 	"/_includes/navigation.html": {
@@ -402,6 +426,14 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_includes/offcanvas.html",
+		"oF": 0
+		},
+	"/_includes/partials/excerpt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/partials/excerpt.html",
 		"oF": 0
 		},
 	"/_includes/scripts.html": {
@@ -458,6 +490,14 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_layouts/home.html",
+		"oF": 0
+		},
+	"/_layouts/info.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_layouts/info.html",
 		"oF": 0
 		},
 	"/_layouts/missing.html": {
@@ -732,12 +772,23 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/_uploads/jeep-grand-cherokee.jpg": {
+	"/_uploads/jeep-cherokee.jpg": {
+		"ft": 16384,
+		"iS": 258154,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/jeep-cherokee.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/jeep-grand-commander.jpg": {
 		"ft": 16384,
 		"iS": 95752,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/_uploads/jeep-grand-cherokee.jpg",
+		"oAP": "/_uploads/jeep-grand-commander.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1309,6 +1360,17 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/assets/js/home.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/min/home-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/assets/js/min/app-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1414,19 +1476,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/css/_settings.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/assets/scss/_transitions.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/assets/css/_transitions.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2019,39 +2068,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/jquery/dist/min/jquery-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/lg-fullscreen/dist/lg-fullscreen.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/lg-fullscreen/dist/min/lg-fullscreen-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/lg-video/dist/lg-video.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/lg-video/dist/min/lg-video-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/node_modules/lightGallery/dist/js/lightgallery.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/lightGallery/dist/js/min/lightgallery-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
