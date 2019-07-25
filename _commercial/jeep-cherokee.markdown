@@ -3,7 +3,7 @@ title: Cherokee
 date: 2017-12-14 18:57:19 Z
 position: 1
 client: Jeep
-agency:
+agency: 
 image: "/uploads/jeep-cherokee.jpg"
 video: 349887415
 production-company: Outsider
