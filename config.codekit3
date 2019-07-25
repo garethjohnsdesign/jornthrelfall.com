@@ -966,6 +966,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/splash.jpg": {
+		"ft": 16384,
+		"iS": 176838,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/splash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/about.md": {
 		"cB": 0,
 		"cS": 0,
@@ -1977,14 +1988,6 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/Gemfile",
-		"oF": 0
-		},
-	"/Gemfile.lock": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/Gemfile.lock",
 		"oF": 0
 		},
 	"/humans.txt": {
