@@ -9,7 +9,6 @@ video: 349887208
 production-company: Outsider
 dop: David Procter
 producer: Nick Sutherland Dodd
-awards: 
 layout: project
 ---
 
