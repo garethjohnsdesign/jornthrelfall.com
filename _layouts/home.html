@@ -26,7 +26,7 @@ layout: compress
     </div>
 
     <div class="home__menu hide">
-      <ul class="menu align-center">
+      <ul class="menu align-center padding-bottom-1">
         {% for entry in site.data.navigation %}
         <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="text-uppercase font-wide">{{ entry.title }}</a></li>
         {% endfor %}
