@@ -2,13 +2,13 @@
   <div class="shrink cell" style="z-index: 10;">
 
     <div class="home__title">
-      <div class="text-uppercase font-wide">{{site.title}}</div>
+      <div class="text-uppercase font-wide sans-bold">Jorn Threlfall</div>
     </div>
 
     <div class="home__menu hide">
       <ul class="menu align-center">
         {% for entry in site.data.navigation %}
-        <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="text-uppercase font-wide">{{ entry.title }}</a></li>
+        <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="text-uppercase font-wide sans-bold">{{ entry.title }}</a></li>
         {% endfor %}
       </ul>
     </div>

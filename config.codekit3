@@ -1169,6 +1169,38 @@
 		"oAP": "/assets/favicons/site.webmanifest",
 		"oF": 0
 		},
+	"/assets/fonts/Calibre-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/Calibre-Regular.woff",
+		"oF": 0
+		},
+	"/assets/fonts/Calibre-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/Calibre-Regular.woff2",
+		"oF": 0
+		},
+	"/assets/fonts/Calibre-Semibold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/Calibre-Semibold.woff",
+		"oF": 0
+		},
+	"/assets/fonts/Calibre-Semibold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/Calibre-Semibold.woff2",
+		"oF": 0
+		},
 	"/assets/fonts/gt-walshiem-regular.woff": {
 		"cB": 0,
 		"ft": 8192,

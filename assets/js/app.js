@@ -40,7 +40,7 @@ vid.playbackRate = 0.75;
 // 	Menu hover effect
 $(".navigation").hover(function(){
   	$(".home__menu").removeClass("hide");
-	$(".home__title").addClass("hide"); 
+    $(".home__title").addClass("hide"); 
    	 }, function () {
  	 $(".home__menu").addClass("hide");
  	 $(".home__title").removeClass("hide");
