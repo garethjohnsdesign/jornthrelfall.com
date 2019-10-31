@@ -78,8 +78,8 @@ $foundation-palette: (
 );
 */
 $foundation-palette: (
-  primary: #ffffff,
-  secondary: #767676,
+  primary: #1a1a1a,
+  secondary: #FFFFFF,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
@@ -92,9 +92,9 @@ $black: #111111;
 // $white: #fefefe;
 $white: #ffffff;
 // $body-background: $white;
-$body-background: $black;
+$body-background: get-color(secondary);
 // $body-font-color: $black;
-$body-font-color: $white;
+$body-font-color: get-color(primary);
 // $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-font-family: $sans-regular;
 $body-antialiased: true;
@@ -186,7 +186,7 @@ $code-background: $light-gray;
 $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
 // $anchor-color: $primary-color;
-$anchor-color: $white;
+$anchor-color: $black;
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;

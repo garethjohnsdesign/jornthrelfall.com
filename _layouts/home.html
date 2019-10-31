@@ -22,13 +22,13 @@ layout: compress
   <div class="shrink cell" style="z-index: 10;">
 
     <div class="home__title">
-      <div class="text-uppercase font-wide h3" data-aos="fade-in">{{site.title}}</div>
+      <div class="text-uppercase font-wide h4 white" data-aos="fade-in">{{site.title}}</div>
     </div>
 
     <div class="home__menu hide">
       <ul class="menu align-center padding-bottom-1">
         {% for entry in site.data.navigation %}
-        <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="text-uppercase font-wide">{{ entry.title }}</a></li>
+        <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="text-uppercase font-wide white">{{ entry.title }}</a></li>
         {% endfor %}
       </ul>
     </div>
