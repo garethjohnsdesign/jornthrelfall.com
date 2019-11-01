@@ -1,4 +1,4 @@
-<div class="full reveal" id="overlayNavigation" data-reveal data-animation-in="fade-in fast" data-animation-out="fade-out fast">
+<div class="full reveal black-background" id="overlayNavigation" data-reveal data-animation-in="fade-in fast" data-animation-out="fade-out fast">
   <div class="grid-x grid-padding-x grid-padding-y align-center-middle" style="height: 100%">
     <div class="shrink cell text-center">
 
@@ -12,19 +12,8 @@
     {% assign current = null %}
     {% endif %}
     {% assign sublinks = entry.sublinks %}
-    {% if sublinks %}
-    <li{{ current }}><a href="#">{{ entry.title }}</a>
-      <ul class="menu vertical nested">
-        {% for sublink in sublinks %}
-        <li><a href="{{ site.baseurl }}{{ sublink.url }}" data-toggle="navigation">{{ sublink.title }}</a></li>
-        {% endfor %}
-       </ul>
-    </li>
-    <ul class="vertical menu">
-      {% else %}
-        <li {{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="text-uppercase h3" data-toggle="overlayNavigation">{{ entry.title }}</a></li>
-      {% endif %}
-      {% endfor %}
+      <li {{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="text-uppercase h3 white" data-toggle="overlayNavigation">{{ entry.title }}</a></li>
+    {% endfor %}
     </ul>
 
     </div>

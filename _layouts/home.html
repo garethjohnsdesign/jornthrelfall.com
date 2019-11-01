@@ -11,21 +11,27 @@ layout: compress
 
 <body class="{{page.layout | slugify}}">
 
-<div class="swup-transition-fade black-background" id="swup-body">
+<div class="swup-transition-fade black-background viewheight" id="swup-body">
 
-<video playsinline autoplay muted loop poster="/uploads/splash.jpg" id="bgvid" data-aos="fade-in">
+<video playsinline autoplay muted loop poster="/uploads/splash.jpg" id="bgvid" data-aos="fade-in" class="testing">
 <source src="uploads/jorn-splash.mp4" type="video/mp4">
 </video>
 
 
-<div class="grid-y align-center-middle navigation home__title" style="height: 100vh;">
+<div class="grid-y align-center-middle show-for-small-only viewheight" style="height: 4rem;">
+  <div class="shrink cell" style="z-index: 10;">
+    <a data-toggle="overlayNavigation" class="text-uppercase sans-bold h3 white">{{site.title}}</a>
+  </div>
+</div>
+
+<div class="grid-y align-center-middle navigation home__title viewheight" style="height: 100%">
   <div class="shrink cell padding-2" style="z-index: 10;">
     <div class="text-uppercase font-wide h2 white margin-bottom-0" data-aos="fade-in" data-aos-delay="500">{{site.title}}</div>
   </div>
 </div>
 
 
-<div class="grid-y align-center-middle navigation home__menu hide" style="height: 100vh;">
+<div class="grid-y align-center-middle navigation home__menu hide viewheight" style="height: 100%">
   <div class="shrink cell padding-2" style="z-index: 10;">
     <ul class="menu align-center">
       {% for entry in site.data.navigation %}
@@ -38,6 +44,11 @@ layout: compress
 
 
 </div>
+
+<!-- Reveal Navigation -->
+{% include reveal/navigation--reveal.html %}
+<!-- End Reveal Navigation -->
+
 
 </body>
 

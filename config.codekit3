@@ -1428,7 +1428,7 @@
 		"tS": 0
 		},
 	"/assets/js/home.js": {
-		"bF": 0,
+		"bF": 4,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1456,17 +1456,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/assets/js/min/min/home-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/assets/js/min/links-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/min/min/links-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

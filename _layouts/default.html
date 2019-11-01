@@ -12,7 +12,7 @@ layout: compress
 <body class="{{page.layout | slugify}}">
 
 <!-- Wrapper -->
-<div class="wrapper grid-y align-justify {{page.layout | slugify}}" data-off-canvas-content>
+<div class="wrapper grid-y align-justify {{page.layout | slugify}} viewheight" data-off-canvas-content>
 
 <!-- Navigation -->
 {% include blocks/navigation.html %}
@@ -31,9 +31,9 @@ layout: compress
 </div>
 <!-- End Wrapper -->
 
-<!-- Navigation -->
+<!-- Reveal Navigation -->
 {% include reveal/navigation--reveal.html %}
-<!-- End Navigation -->
+<!-- End Reveal Navigation -->
 
 </body>
 

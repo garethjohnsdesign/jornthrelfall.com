@@ -300,3 +300,9 @@ video {
 .home__menu {
   transform: all .35s cubic-bezier(.39, .575, .565, 1);
 }
+
+.viewheight {
+//   min-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
+}
+

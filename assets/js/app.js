@@ -12,6 +12,24 @@ import AOS from 'aos';
 import Swup from 'swup';
 import SwupBodyClassPlugin from "@swup/body-class-plugin";
 
+
+// 4. Viewport Height Fix
+// ----------------------
+
+// First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+const vh = window.innerHeight * 0.01;
+
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+// We listen to the resize event
+window.addEventListener('resize', () => {
+  // We execute the same script as before
+  const vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+});
+
+
 $( document ).ready( function() {
   function init() {
 
@@ -28,10 +46,12 @@ Foundation.Interchange.SPECIAL_QUERIES[ "xxlarge-retina" ] = 'only screen and (m
 
 $(document).foundation();
 
+/*
 if ($("body").hasClass("home")) {
 var vid = document.getElementById("bgvid");
 vid.playbackRate = 0.75;
 }
+*/
 
 
 // 3. Menu
@@ -46,10 +66,6 @@ $(".navigation").hover(function(){
  	 $(".home__title").removeClass("hide");
 });
   	
-
-// 4. Lightgallery
-// ---------------
-
 // 8. Animate on Scroll
 // --------------------
 
