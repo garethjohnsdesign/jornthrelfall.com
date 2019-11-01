@@ -38,8 +38,6 @@ plugins:
 - jekyll-feed
 - jekyll/imgix
 - jekyll-mentions
-- jekyll-default-layout
-- jekyll-include-cache
 markdown: kramdown
 kramdown:
   auto_ids: false
