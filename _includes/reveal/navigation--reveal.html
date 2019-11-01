@@ -1,0 +1,21 @@
+<div class="full reveal black-background" id="overlayNavigation" data-reveal data-animation-in="fade-in fast" data-animation-out="fade-out fast">
+  <div class="grid-x grid-padding-x grid-padding-y align-center-middle" style="height: 100%">
+    <div class="shrink cell text-center">
+
+    {% for entry in site.data.navigation %}{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}{% if fullurl == page.url %}{% assign current_page = fullurl %}{% break %}{% elsif page.url contains fullurl %}{% assign current_page = fullurl %}{% endif %}{% endfor %}
+
+    <ul class="vertical menu" data-accordion-menu>
+    {% for entry in site.data.navigation %}
+    {% if entry.url == current_page %}
+    {% assign current = 'class="active"' %}
+    {% else %}
+    {% assign current = null %}
+    {% endif %}
+    {% assign sublinks = entry.sublinks %}
+      <li {{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="text-uppercase h3 white" data-toggle="overlayNavigation">{{ entry.title }}</a></li>
+    {% endfor %}
+    </ul>
+
+    </div>
+  </div>
+</div>

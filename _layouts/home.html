@@ -1,11 +1,55 @@
 ---
-layout: default
+layout: compress
 ---
 
-<div class="grid-x grid-padding-x small-up-1 medium-up-1 large-up-2 xlarge-up-2 xxlarge-up-2">
-  {% assign projects = paginator.posts %}
-  {% for project in projects %}
-    {% include excerpt.html %}
-  {% endfor %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="no-js">
+
+<!-- Head -->
+{% include global/head.html %}
+<!-- End Head -->
+
+<body class="{{page.layout | slugify}}">
+
+<div class="swup-transition-fade black-background viewheight" id="swup-body">
+
+<video playsinline autoplay muted loop poster="/uploads/splash.jpg" id="bgvid" data-aos="fade-in" class="testing">
+<source src="uploads/jorn-splash.mp4" type="video/mp4">
+</video>
+
+
+<div class="grid-y align-center-middle show-for-small-only viewheight" style="height: 4rem;">
+  <div class="shrink cell" style="z-index: 10;">
+    <a data-toggle="overlayNavigation" class="text-uppercase sans-bold h3 white">{{site.title}}</a>
+  </div>
 </div>
-<!-- End Selected Projects -->
+
+<div class="grid-y align-center-middle navigation home__title viewheight" style="height: 100%">
+  <div class="shrink cell padding-2" style="z-index: 10;">
+    <div class="text-uppercase font-wide h2 white margin-bottom-0" data-aos="fade-in" data-aos-delay="500">{{site.title}}</div>
+  </div>
+</div>
+
+
+<div class="grid-y align-center-middle navigation home__menu hide viewheight" style="height: 100%">
+  <div class="shrink cell padding-2" style="z-index: 10;">
+    <ul class="menu align-center">
+      {% for entry in site.data.navigation %}
+      <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="text-uppercase sans-bold white h5">{{ entry.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+
+
+</div>
+
+<!-- Reveal Navigation -->
+{% include reveal/navigation--reveal.html %}
+<!-- End Reveal Navigation -->
+
+
+</body>
+
+</html>

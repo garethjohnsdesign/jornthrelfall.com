@@ -22,7 +22,6 @@ description: Jörn Threlfall is a Bafta-nomitated director, represented by Outsi
 permalink: pretty
 exclude:
 - bower.json
-- Gemfile.lock
 - package.json
 - config.codekit3
 - README*
@@ -32,8 +31,8 @@ exclude:
 - ".gitignore"
 - bower_components
 - assets/scss
+- ".jekyll-cache"
 plugins:
-- jekyll-paginate-v2
 - jekyll-seo-tag
 - jekyll-sitemap
 - jekyll-feed
@@ -44,7 +43,7 @@ kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
-colophon: http://garethjohnsdesign.com
+colophon: https://www.garethjohnsdesign.com
 company: Jörn Threlfall
 email: info@jornthrelfall.com
 google-site-verification: 81MJuIf4Ycj2Ohpq-HikxXDNSpqyKR6FB-SW99W8Ugw

@@ -1,11 +1,11 @@
 ---
 title: Info
-layout: page
+layout: info
 ---
 
 UK  
-Represented by [Outsider](http://www.outsider.tv)  
-[robert@outsider.tv](mailto:robert@outsider.tv)
+Currently freelance  
+[info@jornthrelfall.com](mailto:info@jornthrelfall.com)
 
 USA  
 Represented by [Native Content](http://nativecontent.com)  
@@ -19,6 +19,26 @@ Represented by [Circle Production](http://circleprod.com)
 France  
 Represented by [Bandits](http://www.banditsproduction.com)  
 [alexandre@banditsproduction.com](mailto:alexandre@banditsproduction.com)
+
+Germany  
+Currently freelance  
+[info@jornthrelfall.com](mailto:info@jornthrelfall.com)
+
+Mexico  
+Represented by [Breathe Productions](http://breathe.mx)  
+[echazaro@breathe.mx](mailto:echazaro@breathe.mx)
+
+Italy, Eastern Europe, Near East & Middle East    
+Represented by [Hoben](http://hoben.tv)  
+[marie@hoben.tv](mailto:marie@hoben.tv) [paola@hoben.tv](mailto:paola@hoben.tv)
+
+Far East    
+Represented by [Oxygen Content](http://oxygencontent.com)  
+[johnny@oxygencontent.com](mailto:johnny@oxygencontent.com)
+
+China    
+Represented by [EagleMedia](http://eaglemedia.tv)  
+
 
 General — [info@jornthrelfall.com](mailto:info@jornthrelfall.com)   
 Social — [Twitter](https://twitter.com/jornthrelfall)  
