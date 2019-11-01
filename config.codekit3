@@ -356,28 +356,52 @@
 		"oAP": "/_film/the-borrowers.markdown",
 		"oF": 0
 		},
-	"/_includes/analytics.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_includes/analytics.html",
-		"oF": 0
-		},
-	"/_includes/footer.html": {
+	"/_includes/blocks/excerpt.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/_includes/footer.html",
+		"oAP": "/_includes/blocks/excerpt.html",
 		"oF": 0
 		},
-	"/_includes/head.html": {
+	"/_includes/blocks/footer.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/_includes/head.html",
+		"oAP": "/_includes/blocks/footer.html",
+		"oF": 0
+		},
+	"/_includes/blocks/navigation.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/blocks/navigation.html",
+		"oF": 0
+		},
+	"/_includes/global/analytics.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/global/analytics.html",
+		"oF": 0
+		},
+	"/_includes/global/head.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/global/head.html",
+		"oF": 0
+		},
+	"/_includes/global/scripts.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_includes/global/scripts.html",
 		"oF": 0
 		},
 	"/_includes/images/interchange-img-small-12-medium-12-cell.html": {
@@ -404,36 +428,12 @@
 		"oAP": "/_includes/images/interchange-img-small-12-medium-6-cell.html",
 		"oF": 0
 		},
-	"/_includes/navigation.html": {
+	"/_includes/reveal/navigation--reveal.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/_includes/navigation.html",
-		"oF": 0
-		},
-	"/_includes/offcanvas.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_includes/offcanvas.html",
-		"oF": 0
-		},
-	"/_includes/partials/excerpt.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_includes/partials/excerpt.html",
-		"oF": 0
-		},
-	"/_includes/scripts.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/_includes/scripts.html",
+		"oAP": "/_includes/reveal/navigation--reveal.html",
 		"oF": 0
 		},
 	"/_layouts/archive.html": {
@@ -1169,36 +1169,36 @@
 		"oAP": "/assets/favicons/site.webmanifest",
 		"oF": 0
 		},
-	"/assets/fonts/Calibre-Regular.woff": {
+	"/assets/fonts/calibre-regular.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/assets/fonts/Calibre-Regular.woff",
+		"oAP": "/assets/fonts/calibre-regular.woff",
 		"oF": 0
 		},
-	"/assets/fonts/Calibre-Regular.woff2": {
+	"/assets/fonts/calibre-regular.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/assets/fonts/Calibre-Regular.woff2",
+		"oAP": "/assets/fonts/calibre-regular.woff2",
 		"oF": 0
 		},
-	"/assets/fonts/Calibre-Semibold.woff": {
+	"/assets/fonts/calibre-semibold.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/assets/fonts/Calibre-Semibold.woff",
+		"oAP": "/assets/fonts/calibre-semibold.woff",
 		"oF": 0
 		},
-	"/assets/fonts/Calibre-Semibold.woff2": {
+	"/assets/fonts/calibre-semibold.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/assets/fonts/Calibre-Semibold.woff2",
+		"oAP": "/assets/fonts/calibre-semibold.woff2",
 		"oF": 0
 		},
 	"/assets/fonts/gt-walshiem-regular.woff": {
@@ -1351,6 +1351,38 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/assets/fonts/sf-pro-display-regular.woff2",
+		"oF": 0
+		},
+	"/assets/fonts/transcript-bold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/transcript-bold.woff",
+		"oF": 0
+		},
+	"/assets/fonts/transcript-bold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/transcript-bold.woff2",
+		"oF": 0
+		},
+	"/assets/fonts/transcript-regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/transcript-regular.woff",
+		"oF": 0
+		},
+	"/assets/fonts/transcript-regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/transcript-regular.woff2",
 		"oF": 0
 		},
 	"/assets/icons/symbol-defs.svg": {

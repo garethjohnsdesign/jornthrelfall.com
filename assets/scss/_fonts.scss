@@ -44,6 +44,43 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'NeuzeitSLTStd-Book';
+  src: 
+  url('../fonts/NeuzeitSLTStd-Book.woff2') format('woff2'), 
+  url('../fonts/NeuzeitSLTStd-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'NeuzeitSLTStd-BookHeavy';
+  src: 
+  url('../fonts/NeuzeitSLTStd-BookHeavy.woff2') format('woff2'), 
+  url('../fonts/NeuzeitSLTStd-BookHeavy.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Transcript Regular';
+  src: 
+  url('../fonts/transcript-regular.woff2') format('woff2'), 
+  url('../fonts/transcript-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Transcript Bold';
+  src: 
+  url('../fonts/transcript-bold.woff2') format('woff2'), 
+  url('../fonts/transcript-bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'Gallery';

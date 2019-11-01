@@ -37,7 +37,6 @@ plugins:
 - jekyll-sitemap
 - jekyll-feed
 - jekyll/imgix
-- jekyll-mentions
 markdown: kramdown
 kramdown:
   auto_ids: false

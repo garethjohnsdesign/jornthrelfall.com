@@ -6,7 +6,7 @@ layout: compress
 <html lang="en" dir="ltr" class="no-js">
 
 <!-- Head -->
-{% include head.html %}
+{% include global/head.html %}
 <!-- End Head -->
 
 <body class="{{page.layout | slugify}}">
@@ -15,7 +15,7 @@ layout: compress
 <div class="wrapper grid-y align-justify {{page.layout | slugify}}" data-off-canvas-content>
 
 <!-- Navigation -->
-{% include navigation.html %}
+{% include blocks/navigation.html %}
 <!-- End Navigation -->
 
 <div class="swup-transition-fade" id="swup-body">
@@ -25,11 +25,15 @@ layout: compress
 </div>
 
 <!-- Footer -->
-{% include footer.html %}
+{% include blocks/footer.html %}
 <!-- End Footer-->
 
 </div>
 <!-- End Wrapper -->
+
+<!-- Navigation -->
+{% include reveal/navigation--reveal.html %}
+<!-- End Navigation -->
 
 </body>
 

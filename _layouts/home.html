@@ -6,12 +6,12 @@ layout: compress
 <html lang="en" dir="ltr" class="no-js">
 
 <!-- Head -->
-{% include head.html %}
+{% include global/head.html %}
 <!-- End Head -->
 
 <body class="{{page.layout | slugify}}">
 
-<div class="swup-transition-fade" id="swup-body">
+<div class="swup-transition-fade black-background" id="swup-body">
 
 <video playsinline autoplay muted loop poster="/uploads/splash.jpg" id="bgvid" data-aos="fade-in">
 <source src="uploads/jorn-splash.mp4" type="video/mp4">
@@ -19,17 +19,17 @@ layout: compress
 
 
 <div class="grid-y align-center-middle navigation home__title" style="height: 100vh;">
-  <div class="shrink cell" style="z-index: 10;">
-    <div class="text-uppercase font-wide h5 white margin-bottom-0" data-aos="fade-in" data-aos-delay="500">Jorn Threlfall</div>
+  <div class="shrink cell padding-2" style="z-index: 10;">
+    <div class="text-uppercase font-wide h2 white margin-bottom-0" data-aos="fade-in" data-aos-delay="500">{{site.title}}</div>
   </div>
 </div>
 
 
-<div class="grid-y align-center-middle navigation home__menu" style="height: 100vh;">
-  <div class="shrink cell" style="z-index: 10;">
+<div class="grid-y align-center-middle navigation home__menu hide" style="height: 100vh;">
+  <div class="shrink cell padding-2" style="z-index: 10;">
     <ul class="menu align-center">
       {% for entry in site.data.navigation %}
-      <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="text-uppercase font-wide white">{{ entry.title }}</a></li>
+      <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="text-uppercase sans-bold white h5">{{ entry.title }}</a></li>
       {% endfor %}
     </ul>
   </div>
