@@ -332,6 +332,14 @@
 		"oAP": "/_film/closer.markdown",
 		"oF": 0
 		},
+	"/_film/dawn.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_film/dawn.markdown",
+		"oF": 0
+		},
 	"/_film/mojado.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -649,6 +657,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/closer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/dawned.jpg": {
+		"ft": 16384,
+		"iS": 205485,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/dawned.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1169,36 +1188,36 @@
 		"oAP": "/assets/favicons/site.webmanifest",
 		"oF": 0
 		},
-	"/assets/fonts/calibre-regular.woff": {
+	"/assets/fonts/Calibre-Regular.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/assets/fonts/calibre-regular.woff",
+		"oAP": "/assets/fonts/Calibre-Regular.woff",
 		"oF": 0
 		},
-	"/assets/fonts/calibre-regular.woff2": {
+	"/assets/fonts/Calibre-Regular.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/assets/fonts/calibre-regular.woff2",
+		"oAP": "/assets/fonts/Calibre-Regular.woff2",
 		"oF": 0
 		},
-	"/assets/fonts/calibre-semibold.woff": {
+	"/assets/fonts/Calibre-Semibold.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/assets/fonts/calibre-semibold.woff",
+		"oAP": "/assets/fonts/Calibre-Semibold.woff",
 		"oF": 0
 		},
-	"/assets/fonts/calibre-semibold.woff2": {
+	"/assets/fonts/Calibre-Semibold.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/assets/fonts/calibre-semibold.woff2",
+		"oAP": "/assets/fonts/Calibre-Semibold.woff2",
 		"oF": 0
 		},
 	"/assets/fonts/gt-walshiem-regular.woff": {
