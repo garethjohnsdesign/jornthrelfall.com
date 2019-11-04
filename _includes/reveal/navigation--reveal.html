@@ -6,13 +6,8 @@
 
     <ul class="vertical menu" data-accordion-menu>
     {% for entry in site.data.navigation %}
-    {% if entry.url == current_page %}
-    {% assign current = 'class="active"' %}
-    {% else %}
-    {% assign current = null %}
-    {% endif %}
     {% assign sublinks = entry.sublinks %}
-      <li {{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="text-uppercase h3 white" data-toggle="overlayNavigation">{{ entry.title }}</a></li>
+      <li {{ current }} class="white"><a href="{{ site.baseurl }}{{ entry.url }}" class="text-uppercase h3" data-toggle="overlayNavigation">{{ entry.title }}</a></li>
     {% endfor %}
     </ul>
 
