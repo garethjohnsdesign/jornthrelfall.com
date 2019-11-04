@@ -4,6 +4,6 @@
     <div class="margin-bottom-1 image" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}">
     <div class="content"></div>
     </div>
-    <div class="sans-regular"><span class="project__title sans-bold text-uppercase">{{ project.title }}</span><span class="dark-gray project__client padding-left-1">{{ project.client }}</span></div>
+    <div class="sans-regular"><span class="project__title sans-bold text-uppercase">{{ project.title }}</span>{% if project.client %}<span class="dark-gray project__client padding-left-1">{{ project.client }}</span>{% endif %}</div>
   </a>
 </div>

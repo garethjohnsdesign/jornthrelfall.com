@@ -20,18 +20,17 @@ layout: compress
 
 <div class="grid-y align-center-middle show-for-small-only viewheight" style="height: 4rem;">
   <div class="shrink cell" style="z-index: 10;">
-    <a data-toggle="overlayNavigation" class="text-uppercase sans-bold h3 white">{{site.title}}</a>
+    <a data-toggle="overlayNavigation" class="h1 white margin-bottom-0" data-aos="fade-in" data-aos-delay="500"><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></a>
   </div>
 </div>
 
-<div class="grid-y align-center-middle navigation home__title viewheight" style="height: 100%">
+<div class="grid-y align-center-middle navigation home__title viewheight show-for-medium" style="height: 100%">
   <div class="shrink cell padding-2" style="z-index: 10;">
-    <div class="text-uppercase font-wide h2 white margin-bottom-0" data-aos="fade-in" data-aos-delay="500">{{site.title}}</div>
+    <div class="h1 white margin-bottom-0" data-aos="fade-in" data-aos-delay="500"><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></div>
   </div>
 </div>
-
-
-<div class="grid-y align-center-middle navigation home__menu hide viewheight" style="height: 100%">
+ 
+<div class="grid-y align-center-middle navigation home__menu hide viewheight show-for-medium" style="height: 100%">
   <div class="shrink cell padding-2" style="z-index: 10;">
     <ul class="menu align-center">
       {% for entry in site.data.navigation %}
@@ -41,14 +40,11 @@ layout: compress
   </div>
 </div>
 
-
-
 </div>
 
 <!-- Reveal Navigation -->
 {% include reveal/navigation--reveal.html %}
 <!-- End Reveal Navigation -->
-
 
 </body>
 
