@@ -6,4 +6,4 @@ Site for Jörn Threlfall. Please go to [www.jornthrelfall.com](https://www.jornt
 
 * * *
 
-Copyright (c) 2019 Gareth Johns Design + Development – info@garethjohnsdesign.com
+Copyright (c) 2020 Gareth Johns Design + Development – info@garethjohnsdesign.com
